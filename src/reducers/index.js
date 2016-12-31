@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import backupInfoReducer from './backupInfoReducer';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  backupInfo: backupInfoReducer
 });
 
 export default rootReducer;
